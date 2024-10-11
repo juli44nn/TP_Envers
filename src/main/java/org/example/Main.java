@@ -45,7 +45,8 @@ public class Main {
 
             em.persist(cliente1);
             em.persist(cliente2);
-;
+;           em.remove(cliente1);
+
 
             System.out.println("IMPRIMO PERSONA ANTES  DE GRABAR");
             System.out.println("--------------------");
